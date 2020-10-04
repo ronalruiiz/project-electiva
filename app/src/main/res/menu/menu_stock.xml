@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Stocks">
+    <item
+        android:id="@+id/insert_dummy_stock"
+        app:showAsAction="never"
+        android:title="insert dummy data"/>
+    <item
+        android:id="@+id/delete_all_stocks"
+        app:showAsAction="never"
+        android:title="@string/delete_all_data"/>
+</menu>

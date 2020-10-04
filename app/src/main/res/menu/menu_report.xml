@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ReportsActivity">
+    <item
+        android:id="@+id/insert_dummy_report"
+        app:showAsAction="never"
+        android:title="@string/insert_dummy_data"/>
+    <item
+        android:id="@+id/delete_all_reports"
+        app:showAsAction="never"
+        android:title="@string/delete_all_data"/>
+</menu>

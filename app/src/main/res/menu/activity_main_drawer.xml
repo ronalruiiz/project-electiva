@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Main_Menu"
+            android:icon="@drawable/ic_home"
+            android:title="Main Menu" />
+        <item
+            android:id="@+id/list_goods"
+            android:icon="@drawable/ic_view_list"
+            android:title="List Goods" />
+        <item
+            android:id="@+id/add_production"
+            android:icon="@drawable/ic_playlist_add"
+            android:title="Add Product" />
+        <item
+            android:id="@+id/edit_production"
+            android:icon="@drawable/ic_edit"
+            android:title="Edit Product" />
+        <item
+            android:id="@+id/add_customer"
+            android:icon="@drawable/ic_add_customer"
+            android:title="Add Customer" />
+        <item
+            android:id="@+id/add_report"
+            android:icon="@drawable/ic_note_add"
+            android:title="Add Supplier" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/ic_call"
+                android:title="call" />
+            <item
+                android:id="@+id/nav_send_sms"
+                android:icon="@drawable/ic_message"
+                android:title="Send sms" />
+        </menu>
+    </item>
+
+</menu>

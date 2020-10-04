@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1,2,3,4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow
+        android:background="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="1dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/nameC_rp"
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:hint="Name"
+            android:textColor="#a41111"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_margin="1dp"
+            android:layout_column="0"
+            android:background="#FFFFFF"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/nameP_rp"
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:textColor="#a41111"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:hint="Name"
+            android:layout_margin="1dp"
+            android:layout_column="1"
+            android:background="#FFFFFF"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/debit_rp"
+            android:layout_width="0dp"
+            android:textColor="#a41111"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:hint="debit"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:layout_column="2" />
+        <TextView
+            android:id="@+id/rebate_rp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="#a41111"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:hint="rebate"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:layout_column="3" />
+        <TextView
+            android:id="@+id/Amnt_rp"
+            android:layout_width="0dp"
+            android:textColor="#a41111"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:hint="$"
+            android:layout_margin="1dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:layout_column="4" />
+    </TableRow>
+</TableLayout>
